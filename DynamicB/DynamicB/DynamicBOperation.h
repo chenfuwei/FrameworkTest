@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DynamicBOperation : NSObject
--(void)operationAdd;
+-(void)operationStaticAdd;
+-(void)operationDynamicAdd;
 
 @end
 

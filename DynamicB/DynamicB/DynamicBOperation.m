@@ -8,8 +8,10 @@
 
 #import "DynamicBOperation.h"
 #import <StaticLibA/StaticLibA.h>
+#import <DynamicC/DynamicC.h>
 @interface DynamicBOperation()
 @property(nonatomic, strong)StaticLibA *staticLibA;
+@property(nonatomic, strong)DynamicCOperation *dynamicCOperation;
 @end
 @implementation DynamicBOperation
 - (instancetype)init
@@ -18,12 +20,20 @@
     if (self) {
         self.staticLibA = [[StaticLibA alloc] init];
         [self.staticLibA printStaticLibA];
+        self.dynamicCOperation = [[DynamicCOperation alloc] init];
+        [self.dynamicCOperation printGlobalValueC];
     }
     return self;
 }
--(void)operationAdd
+-(void)operationStaticAdd
 {
     globalValue ++;
     [self.staticLibA printStaticLibA];
+}
+
+-(void)operationDynamicAdd
+{
+    globalValueC ++;
+    [self.dynamicCOperation printGlobalValueC];
 }
 @end

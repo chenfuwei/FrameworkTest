@@ -7,202 +7,186 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4415A504230A4D51008DB563 /* DynamicA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A4FA230A4D51008DB563 /* DynamicA.framework */; };
-		4415A509230A4D51008DB563 /* DynamicATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415A508230A4D51008DB563 /* DynamicATests.m */; };
-		4415A50B230A4D51008DB563 /* DynamicA.h in Headers */ = {isa = PBXBuildFile; fileRef = 4415A4FD230A4D51008DB563 /* DynamicA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4415A597230A4EF7008DB563 /* libStaticLibA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A596230A4EF7008DB563 /* libStaticLibA.a */; };
-		4415A59A230A4FA4008DB563 /* DynamicAOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4415A598230A4FA3008DB563 /* DynamicAOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4415A59B230A4FA4008DB563 /* DynamicAOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415A599230A4FA4008DB563 /* DynamicAOperation.m */; };
-		4415A5D6230A768E008DB563 /* DynamicC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5D5230A768E008DB563 /* DynamicC.framework */; };
+		4415A5C1230A7594008DB563 /* DynamicC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5B7230A7594008DB563 /* DynamicC.framework */; };
+		4415A5C6230A7594008DB563 /* DynamicCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415A5C5230A7594008DB563 /* DynamicCTests.m */; };
+		4415A5C8230A7594008DB563 /* DynamicC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4415A5BA230A7594008DB563 /* DynamicC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4415A5D3230A75C6008DB563 /* DynamicCOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4415A5D1230A75C6008DB563 /* DynamicCOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4415A5D4230A75C6008DB563 /* DynamicCOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415A5D2230A75C6008DB563 /* DynamicCOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4415A505230A4D51008DB563 /* PBXContainerItemProxy */ = {
+		4415A5C2230A7594008DB563 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4415A4F1230A4D51008DB563 /* Project object */;
+			containerPortal = 4415A5AE230A7594008DB563 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4415A4F9230A4D51008DB563;
-			remoteInfo = DynamicA;
+			remoteGlobalIDString = 4415A5B6230A7594008DB563;
+			remoteInfo = DynamicC;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4415A4FA230A4D51008DB563 /* DynamicA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4415A4FD230A4D51008DB563 /* DynamicA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicA.h; sourceTree = "<group>"; };
-		4415A4FE230A4D51008DB563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4415A503230A4D51008DB563 /* DynamicATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4415A508230A4D51008DB563 /* DynamicATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicATests.m; sourceTree = "<group>"; };
-		4415A50A230A4D51008DB563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4415A596230A4EF7008DB563 /* libStaticLibA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libStaticLibA.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4415A598230A4FA3008DB563 /* DynamicAOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicAOperation.h; sourceTree = "<group>"; };
-		4415A599230A4FA4008DB563 /* DynamicAOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicAOperation.m; sourceTree = "<group>"; };
-		4415A5D5230A768E008DB563 /* DynamicC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4415A5B7230A7594008DB563 /* DynamicC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4415A5BA230A7594008DB563 /* DynamicC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicC.h; sourceTree = "<group>"; };
+		4415A5BB230A7594008DB563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4415A5C0230A7594008DB563 /* DynamicCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4415A5C5230A7594008DB563 /* DynamicCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCTests.m; sourceTree = "<group>"; };
+		4415A5C7230A7594008DB563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4415A5D1230A75C6008DB563 /* DynamicCOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCOperation.h; sourceTree = "<group>"; };
+		4415A5D2230A75C6008DB563 /* DynamicCOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4415A4F7230A4D51008DB563 /* Frameworks */ = {
+		4415A5B4230A7594008DB563 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4415A5D6230A768E008DB563 /* DynamicC.framework in Frameworks */,
-				4415A597230A4EF7008DB563 /* libStaticLibA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4415A500230A4D51008DB563 /* Frameworks */ = {
+		4415A5BD230A7594008DB563 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4415A504230A4D51008DB563 /* DynamicA.framework in Frameworks */,
+				4415A5C1230A7594008DB563 /* DynamicC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4415A4F0230A4D51008DB563 = {
+		4415A5AD230A7594008DB563 = {
 			isa = PBXGroup;
 			children = (
-				4415A4FC230A4D51008DB563 /* DynamicA */,
-				4415A507230A4D51008DB563 /* DynamicATests */,
-				4415A4FB230A4D51008DB563 /* Products */,
-				4415A595230A4EF7008DB563 /* Frameworks */,
+				4415A5B9230A7594008DB563 /* DynamicC */,
+				4415A5C4230A7594008DB563 /* DynamicCTests */,
+				4415A5B8230A7594008DB563 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4415A4FB230A4D51008DB563 /* Products */ = {
+		4415A5B8230A7594008DB563 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4415A4FA230A4D51008DB563 /* DynamicA.framework */,
-				4415A503230A4D51008DB563 /* DynamicATests.xctest */,
+				4415A5B7230A7594008DB563 /* DynamicC.framework */,
+				4415A5C0230A7594008DB563 /* DynamicCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4415A4FC230A4D51008DB563 /* DynamicA */ = {
+		4415A5B9230A7594008DB563 /* DynamicC */ = {
 			isa = PBXGroup;
 			children = (
-				4415A4FD230A4D51008DB563 /* DynamicA.h */,
-				4415A4FE230A4D51008DB563 /* Info.plist */,
-				4415A598230A4FA3008DB563 /* DynamicAOperation.h */,
-				4415A599230A4FA4008DB563 /* DynamicAOperation.m */,
+				4415A5BA230A7594008DB563 /* DynamicC.h */,
+				4415A5BB230A7594008DB563 /* Info.plist */,
+				4415A5D1230A75C6008DB563 /* DynamicCOperation.h */,
+				4415A5D2230A75C6008DB563 /* DynamicCOperation.m */,
 			);
-			path = DynamicA;
+			path = DynamicC;
 			sourceTree = "<group>";
 		};
-		4415A507230A4D51008DB563 /* DynamicATests */ = {
+		4415A5C4230A7594008DB563 /* DynamicCTests */ = {
 			isa = PBXGroup;
 			children = (
-				4415A508230A4D51008DB563 /* DynamicATests.m */,
-				4415A50A230A4D51008DB563 /* Info.plist */,
+				4415A5C5230A7594008DB563 /* DynamicCTests.m */,
+				4415A5C7230A7594008DB563 /* Info.plist */,
 			);
-			path = DynamicATests;
-			sourceTree = "<group>";
-		};
-		4415A595230A4EF7008DB563 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4415A5D5230A768E008DB563 /* DynamicC.framework */,
-				4415A596230A4EF7008DB563 /* libStaticLibA.a */,
-			);
-			name = Frameworks;
+			path = DynamicCTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4415A4F5230A4D51008DB563 /* Headers */ = {
+		4415A5B2230A7594008DB563 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4415A59A230A4FA4008DB563 /* DynamicAOperation.h in Headers */,
-				4415A50B230A4D51008DB563 /* DynamicA.h in Headers */,
+				4415A5D3230A75C6008DB563 /* DynamicCOperation.h in Headers */,
+				4415A5C8230A7594008DB563 /* DynamicC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4415A4F9230A4D51008DB563 /* DynamicA */ = {
+		4415A5B6230A7594008DB563 /* DynamicC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4415A50E230A4D51008DB563 /* Build configuration list for PBXNativeTarget "DynamicA" */;
+			buildConfigurationList = 4415A5CB230A7594008DB563 /* Build configuration list for PBXNativeTarget "DynamicC" */;
 			buildPhases = (
-				4415A4F5230A4D51008DB563 /* Headers */,
-				4415A4F6230A4D51008DB563 /* Sources */,
-				4415A4F7230A4D51008DB563 /* Frameworks */,
-				4415A4F8230A4D51008DB563 /* Resources */,
+				4415A5B2230A7594008DB563 /* Headers */,
+				4415A5B3230A7594008DB563 /* Sources */,
+				4415A5B4230A7594008DB563 /* Frameworks */,
+				4415A5B5230A7594008DB563 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DynamicA;
-			productName = DynamicA;
-			productReference = 4415A4FA230A4D51008DB563 /* DynamicA.framework */;
+			name = DynamicC;
+			productName = DynamicC;
+			productReference = 4415A5B7230A7594008DB563 /* DynamicC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4415A502230A4D51008DB563 /* DynamicATests */ = {
+		4415A5BF230A7594008DB563 /* DynamicCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4415A511230A4D51008DB563 /* Build configuration list for PBXNativeTarget "DynamicATests" */;
+			buildConfigurationList = 4415A5CE230A7594008DB563 /* Build configuration list for PBXNativeTarget "DynamicCTests" */;
 			buildPhases = (
-				4415A4FF230A4D51008DB563 /* Sources */,
-				4415A500230A4D51008DB563 /* Frameworks */,
-				4415A501230A4D51008DB563 /* Resources */,
+				4415A5BC230A7594008DB563 /* Sources */,
+				4415A5BD230A7594008DB563 /* Frameworks */,
+				4415A5BE230A7594008DB563 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4415A506230A4D51008DB563 /* PBXTargetDependency */,
+				4415A5C3230A7594008DB563 /* PBXTargetDependency */,
 			);
-			name = DynamicATests;
-			productName = DynamicATests;
-			productReference = 4415A503230A4D51008DB563 /* DynamicATests.xctest */;
+			name = DynamicCTests;
+			productName = DynamicCTests;
+			productReference = 4415A5C0230A7594008DB563 /* DynamicCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4415A4F1230A4D51008DB563 /* Project object */ = {
+		4415A5AE230A7594008DB563 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = net263;
 				TargetAttributes = {
-					4415A4F9230A4D51008DB563 = {
+					4415A5B6230A7594008DB563 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					4415A502230A4D51008DB563 = {
+					4415A5BF230A7594008DB563 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 4415A4F4230A4D51008DB563 /* Build configuration list for PBXProject "DynamicA" */;
+			buildConfigurationList = 4415A5B1230A7594008DB563 /* Build configuration list for PBXProject "DynamicC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4415A4F0230A4D51008DB563;
-			productRefGroup = 4415A4FB230A4D51008DB563 /* Products */;
+			mainGroup = 4415A5AD230A7594008DB563;
+			productRefGroup = 4415A5B8230A7594008DB563 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4415A4F9230A4D51008DB563 /* DynamicA */,
-				4415A502230A4D51008DB563 /* DynamicATests */,
+				4415A5B6230A7594008DB563 /* DynamicC */,
+				4415A5BF230A7594008DB563 /* DynamicCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4415A4F8230A4D51008DB563 /* Resources */ = {
+		4415A5B5230A7594008DB563 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4415A501230A4D51008DB563 /* Resources */ = {
+		4415A5BE230A7594008DB563 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,34 +196,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4415A4F6230A4D51008DB563 /* Sources */ = {
+		4415A5B3230A7594008DB563 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4415A59B230A4FA4008DB563 /* DynamicAOperation.m in Sources */,
+				4415A5D4230A75C6008DB563 /* DynamicCOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4415A4FF230A4D51008DB563 /* Sources */ = {
+		4415A5BC230A7594008DB563 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4415A509230A4D51008DB563 /* DynamicATests.m in Sources */,
+				4415A5C6230A7594008DB563 /* DynamicCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4415A506230A4D51008DB563 /* PBXTargetDependency */ = {
+		4415A5C3230A7594008DB563 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4415A4F9230A4D51008DB563 /* DynamicA */;
-			targetProxy = 4415A505230A4D51008DB563 /* PBXContainerItemProxy */;
+			target = 4415A5B6230A7594008DB563 /* DynamicC */;
+			targetProxy = 4415A5C2230A7594008DB563 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4415A50C230A4D51008DB563 /* Debug */ = {
+		4415A5C9230A7594008DB563 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		4415A50D230A4D51008DB563 /* Release */ = {
+		4415A5CA230A7594008DB563 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +341,7 @@
 			};
 			name = Release;
 		};
-		4415A50F230A4D51008DB563 /* Debug */ = {
+		4415A5CC230A7594008DB563 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -366,21 +350,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DynamicA/Info.plist;
+				INFOPLIST_FILE = DynamicC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicA;
+				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4415A510230A4D51008DB563 /* Release */ = {
+		4415A5CD230A7594008DB563 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -389,47 +373,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DynamicA/Info.plist;
+				INFOPLIST_FILE = DynamicC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicA;
+				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		4415A512230A4D51008DB563 /* Debug */ = {
+		4415A5CF230A7594008DB563 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DynamicATests/Info.plist;
+				INFOPLIST_FILE = DynamicCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicATests;
+				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4415A513230A4D51008DB563 /* Release */ = {
+		4415A5D0230A7594008DB563 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DynamicATests/Info.plist;
+				INFOPLIST_FILE = DynamicCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicATests;
+				PRODUCT_BUNDLE_IDENTIFIER = xmg.log.DynamicCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,34 +422,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4415A4F4230A4D51008DB563 /* Build configuration list for PBXProject "DynamicA" */ = {
+		4415A5B1230A7594008DB563 /* Build configuration list for PBXProject "DynamicC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4415A50C230A4D51008DB563 /* Debug */,
-				4415A50D230A4D51008DB563 /* Release */,
+				4415A5C9230A7594008DB563 /* Debug */,
+				4415A5CA230A7594008DB563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4415A50E230A4D51008DB563 /* Build configuration list for PBXNativeTarget "DynamicA" */ = {
+		4415A5CB230A7594008DB563 /* Build configuration list for PBXNativeTarget "DynamicC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4415A50F230A4D51008DB563 /* Debug */,
-				4415A510230A4D51008DB563 /* Release */,
+				4415A5CC230A7594008DB563 /* Debug */,
+				4415A5CD230A7594008DB563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4415A511230A4D51008DB563 /* Build configuration list for PBXNativeTarget "DynamicATests" */ = {
+		4415A5CE230A7594008DB563 /* Build configuration list for PBXNativeTarget "DynamicCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4415A512230A4D51008DB563 /* Debug */,
-				4415A513230A4D51008DB563 /* Release */,
+				4415A5CF230A7594008DB563 /* Debug */,
+				4415A5D0230A7594008DB563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4415A4F1230A4D51008DB563 /* Project object */;
+	rootObject = 4415A5AE230A7594008DB563 /* Project object */;
 }

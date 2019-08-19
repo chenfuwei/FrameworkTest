@@ -20,6 +20,8 @@
 		4415A5A8230A6E28008DB563 /* DynamicA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5A7230A6E28008DB563 /* DynamicA.framework */; };
 		4415A5A9230A6E28008DB563 /* DynamicA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5A7230A6E28008DB563 /* DynamicA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4415A5AC230A6E85008DB563 /* libStaticLibA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5AB230A6E85008DB563 /* libStaticLibA.a */; };
+		4415A5DA230A77FA008DB563 /* DynamicC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5D9230A77FA008DB563 /* DynamicC.framework */; };
+		4415A5DB230A77FA008DB563 /* DynamicC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5D9230A77FA008DB563 /* DynamicC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 			files = (
 				4415A5A9230A6E28008DB563 /* DynamicA.framework in Embed Frameworks */,
 				4415A5A5230A6E22008DB563 /* DynamicB.framework in Embed Frameworks */,
+				4415A5DB230A77FA008DB563 /* DynamicC.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +77,7 @@
 		4415A5A3230A6E22008DB563 /* DynamicB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4415A5A7230A6E28008DB563 /* DynamicA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4415A5AB230A6E85008DB563 /* libStaticLibA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libStaticLibA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4415A5D9230A77FA008DB563 /* DynamicC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			files = (
 				4415A5AC230A6E85008DB563 /* libStaticLibA.a in Frameworks */,
 				4415A5A8230A6E28008DB563 /* DynamicA.framework in Frameworks */,
+				4415A5DA230A77FA008DB563 /* DynamicC.framework in Frameworks */,
 				4415A5A4230A6E22008DB563 /* DynamicB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +112,7 @@
 		4415A497230A4C9C008DB563 = {
 			isa = PBXGroup;
 			children = (
+				4415A5D9230A77FA008DB563 /* DynamicC.framework */,
 				4415A5A7230A6E28008DB563 /* DynamicA.framework */,
 				4415A5A3230A6E22008DB563 /* DynamicB.framework */,
 				4415A4A2230A4C9C008DB563 /* Test */,

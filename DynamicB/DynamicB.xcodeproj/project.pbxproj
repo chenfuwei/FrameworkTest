@@ -13,6 +13,7 @@
 		4415A59E230A6D51008DB563 /* libStaticLibA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A59D230A6D51008DB563 /* libStaticLibA.a */; };
 		4415A5A1230A6D76008DB563 /* DynamicBOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4415A59F230A6D76008DB563 /* DynamicBOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4415A5A2230A6D76008DB563 /* DynamicBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415A5A0230A6D76008DB563 /* DynamicBOperation.m */; };
+		4415A5D8230A7696008DB563 /* DynamicC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4415A5D7230A7696008DB563 /* DynamicC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		4415A59D230A6D51008DB563 /* libStaticLibA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libStaticLibA.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4415A59F230A6D76008DB563 /* DynamicBOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicBOperation.h; sourceTree = "<group>"; };
 		4415A5A0230A6D76008DB563 /* DynamicBOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicBOperation.m; sourceTree = "<group>"; };
+		4415A5D7230A7696008DB563 /* DynamicC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4415A5D8230A7696008DB563 /* DynamicC.framework in Frameworks */,
 				4415A59E230A6D51008DB563 /* libStaticLibA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +102,7 @@
 		4415A59C230A6D51008DB563 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4415A5D7230A7696008DB563 /* DynamicC.framework */,
 				4415A59D230A6D51008DB563 /* libStaticLibA.a */,
 			);
 			name = Frameworks;

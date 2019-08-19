@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DynamicC/DynamicC.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DynamicB/DynamicB.xcodeproj">
    </FileRef>
    <FileRef

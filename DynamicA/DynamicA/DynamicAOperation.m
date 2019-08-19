@@ -8,8 +8,10 @@
 
 #import "DynamicAOperation.h"
 #import <StaticLibA/StaticLibA.h>
+#import <DynamicC/DynamicC.h>
 @interface DynamicAOperation()
 @property(nonatomic, strong)StaticLibA *staticLibA;
+@property(nonatomic, strong)DynamicCOperation *dynamicCOperation;
 @end
 @implementation DynamicAOperation
 
@@ -19,13 +21,19 @@
     if (self) {
         self.staticLibA = [[StaticLibA alloc] init];
         [self.staticLibA printStaticLibA];
+        self.dynamicCOperation = [[DynamicCOperation alloc] init];
+        [self.dynamicCOperation printGlobalValueC];
     }
     return self;
 }
--(void)operationAdd
+-(void)operationStaticAdd
 {
     globalValue ++;
     [self.staticLibA printStaticLibA];
 }
-
+-(void)operationDynamicAdd
+{
+    globalValueC ++;
+    [self.dynamicCOperation printGlobalValueC];
+}
 @end
